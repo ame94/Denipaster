@@ -1,0 +1,12 @@
+name: Denipaster
+version: 0.1
+description: Pastebin powered Denizen script management plugin
+author: ame94
+main: ca.ame94.denipaster.PluginMain
+
+commands:
+    denipaster:
+        description: Denipaster base command
+        permission: denipaster.admin
+        permission-message: §4You are not permitted to use this plugin.
+        usage: Please use '/denipaster help' for more info.
